@@ -6,6 +6,8 @@ SemanticNav3D combines visual SLAM, semantic keyframe selection, object detectio
 
 The project focuses on object-level spatial understanding rather than dense 3D reconstruction. Each persistent object is represented by a robust 3D position in the SLAM world frame and can be queried semantically or used for camera-relative target guidance.
 
+<img width="800" height="337" alt="semanticnav3d_demo_small" src="https://github.com/user-attachments/assets/c15afc7d-724e-4d56-970e-153b7e859c83" />
+
 ## Pipeline
 
 ```text
