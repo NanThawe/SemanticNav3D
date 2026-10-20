@@ -1,0 +1,45 @@
+SemanticNav3D Semantic Pipeline Benchmark
+========================================
+
+Detector configuration
+----------------------
+Model: yolo11n.pt
+Confidence threshold: 0.35
+Image size: 640
+Device: CPU
+
+Dataset
+-------
+Total RGB-D frames: 1362
+Semantic keyframes: 371
+Frames benchmarked: 371
+
+Timing
+------
+Mean RGB-D load: 11.174 ms
+Mean YOLO CPU inference: 31.335 ms
+Median YOLO CPU inference: 30.168 ms
+Mean 3D localisation: 0.801 ms
+Mean object association: 0.959 ms
+Mean semantic update: 44.383 ms
+
+Keyframe efficiency
+-------------------
+Detector frames skipped: 991
+Semantic workload: 27.24%
+Detector invocations avoided: 72.76%
+Invocation reduction factor: 3.67x
+
+Estimated detector CPU cost
+---------------------------
+YOLO on all frames: 42.678 s
+YOLO on semantic keyframes: 11.625 s
+Estimated CPU time avoided: 31.053 s
+Amortised semantic cost/input frame: 12.090 ms
+
+Mapping result
+--------------
+YOLO detections: 1034
+3D localisations: 1004
+Candidate tracks: 132
+Persistent tracks: 65

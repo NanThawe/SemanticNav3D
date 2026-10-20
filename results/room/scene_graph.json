@@ -1,0 +1,1598 @@
+{
+  "metadata": {
+    "graph_type": "object_level_spatial_scene_graph",
+    "coordinate_system": "ORB-SLAM3 world frame",
+    "node_count": 68,
+    "edge_count": 104,
+    "very_near_threshold_m": 0.25,
+    "near_threshold_m": 0.4,
+    "relations": [
+      "VERY_NEAR",
+      "NEAR"
+    ]
+  },
+  "nodes": [
+    {
+      "object_id": 0,
+      "class_name": "laptop",
+      "x_world": 0.3408918057995339,
+      "y_world": -0.1796166219080989,
+      "z_world": 0.9874913081352732,
+      "observation_count": 55,
+      "mean_confidence": 0.7284607540477406,
+      "position_rmse_m": 0.1364129936641118,
+      "node_id": "laptop_0"
+    },
+    {
+      "object_id": 1,
+      "class_name": "laptop",
+      "x_world": 0.0460522904395417,
+      "y_world": 0.0983816177013223,
+      "z_world": 1.0188674354332572,
+      "observation_count": 49,
+      "mean_confidence": 0.8714481148184562,
+      "position_rmse_m": 0.0845470701001341,
+      "node_id": "laptop_1"
+    },
+    {
+      "object_id": 2,
+      "class_name": "keyboard",
+      "x_world": 0.3945235889006521,
+      "y_world": 0.0130808011917643,
+      "z_world": 1.115917207386139,
+      "observation_count": 11,
+      "mean_confidence": 0.4908935915340077,
+      "position_rmse_m": 0.0245920457951443,
+      "node_id": "keyboard_2"
+    },
+    {
+      "object_id": 3,
+      "class_name": "tv",
+      "x_world": -1.1843228077200747,
+      "y_world": -0.1828690711675189,
+      "z_world": 1.0515256494586152,
+      "observation_count": 64,
+      "mean_confidence": 0.6804542164318264,
+      "position_rmse_m": 0.0788810189228722,
+      "node_id": "tv_3"
+    },
+    {
+      "object_id": 6,
+      "class_name": "mouse",
+      "x_world": 0.8437002961621771,
+      "y_world": -0.1344228440092933,
+      "z_world": 1.1849327019365572,
+      "observation_count": 13,
+      "mean_confidence": 0.5220809395496662,
+      "position_rmse_m": 0.0093957598074868,
+      "node_id": "mouse_6"
+    },
+    {
+      "object_id": 10,
+      "class_name": "book",
+      "x_world": 0.8229182745184348,
+      "y_world": 0.407773763693252,
+      "z_world": 0.6741901289900882,
+      "observation_count": 34,
+      "mean_confidence": 0.6788102134185678,
+      "position_rmse_m": 0.0206520692122055,
+      "node_id": "book_10"
+    },
+    {
+      "object_id": 11,
+      "class_name": "mouse",
+      "x_world": 0.6022978994173973,
+      "y_world": 0.1871293780696507,
+      "z_world": 0.9226995035751532,
+      "observation_count": 8,
+      "mean_confidence": 0.4359335042536258,
+      "position_rmse_m": 0.0602316172392155,
+      "node_id": "mouse_11"
+    },
+    {
+      "object_id": 12,
+      "class_name": "teddy bear",
+      "x_world": 1.4577047203912812,
+      "y_world": -0.6223455227758683,
+      "z_world": 1.81838497738346,
+      "observation_count": 3,
+      "mean_confidence": 0.5005204677581787,
+      "position_rmse_m": 0.0827935639991384,
+      "node_id": "teddy bear_12"
+    },
+    {
+      "object_id": 13,
+      "class_name": "book",
+      "x_world": 1.063951559052827,
+      "y_world": 0.2696437508680956,
+      "z_world": 0.7555437330405023,
+      "observation_count": 39,
+      "mean_confidence": 0.5623493110522245,
+      "position_rmse_m": 0.0594905611470674,
+      "node_id": "book_13"
+    },
+    {
+      "object_id": 14,
+      "class_name": "tv",
+      "x_world": 0.6689461112552875,
+      "y_world": -0.400979555815677,
+      "z_world": 1.1875482865746856,
+      "observation_count": 29,
+      "mean_confidence": 0.5101141765199858,
+      "position_rmse_m": 0.2122015818758156,
+      "node_id": "tv_14"
+    },
+    {
+      "object_id": 15,
+      "class_name": "keyboard",
+      "x_world": 0.0347784907208998,
+      "y_world": 0.2377392929176516,
+      "z_world": 0.9324942388844704,
+      "observation_count": 6,
+      "mean_confidence": 0.4308103770017624,
+      "position_rmse_m": 0.0649398309454059,
+      "node_id": "keyboard_15"
+    },
+    {
+      "object_id": 17,
+      "class_name": "mouse",
+      "x_world": 1.410867710425977,
+      "y_world": -0.1296222866173968,
+      "z_world": 1.1917385841310095,
+      "observation_count": 4,
+      "mean_confidence": 0.4964383170008659,
+      "position_rmse_m": 0.152506135696769,
+      "node_id": "mouse_17"
+    },
+    {
+      "object_id": 19,
+      "class_name": "book",
+      "x_world": 1.2490239345768157,
+      "y_world": 0.077208897851972,
+      "z_world": 0.9957144278850136,
+      "observation_count": 44,
+      "mean_confidence": 0.5604377375407652,
+      "position_rmse_m": 0.0368326075638581,
+      "node_id": "book_19"
+    },
+    {
+      "object_id": 20,
+      "class_name": "tv",
+      "x_world": 0.3223420690428823,
+      "y_world": -0.4173297362705596,
+      "z_world": 1.3778405373195006,
+      "observation_count": 8,
+      "mean_confidence": 0.5391587354242802,
+      "position_rmse_m": 0.099547294728257,
+      "node_id": "tv_20"
+    },
+    {
+      "object_id": 23,
+      "class_name": "laptop",
+      "x_world": -0.1699741825216194,
+      "y_world": 0.0981472560770793,
+      "z_world": 1.1939867221120748,
+      "observation_count": 25,
+      "mean_confidence": 0.7544371128082276,
+      "position_rmse_m": 0.122632796907606,
+      "node_id": "laptop_23"
+    },
+    {
+      "object_id": 24,
+      "class_name": "cup",
+      "x_world": 0.9920212371335028,
+      "y_world": -0.2422121882381858,
+      "z_world": 1.2573570794486195,
+      "observation_count": 4,
+      "mean_confidence": 0.417482241988182,
+      "position_rmse_m": 0.1105671497926191,
+      "node_id": "cup_24"
+    },
+    {
+      "object_id": 25,
+      "class_name": "chair",
+      "x_world": 0.0480820600956901,
+      "y_world": 0.5344802176368796,
+      "z_world": 0.60081954278805,
+      "observation_count": 39,
+      "mean_confidence": 0.6884955152487143,
+      "position_rmse_m": 0.0758479651145756,
+      "node_id": "chair_25"
+    },
+    {
+      "object_id": 27,
+      "class_name": "keyboard",
+      "x_world": -0.7332043145487914,
+      "y_world": 0.0980966648177265,
+      "z_world": 1.0726540588536173,
+      "observation_count": 10,
+      "mean_confidence": 0.5074140429496765,
+      "position_rmse_m": 0.0295264902685719,
+      "node_id": "keyboard_27"
+    },
+    {
+      "object_id": 28,
+      "class_name": "tv",
+      "x_world": -1.6513376527930188,
+      "y_world": -0.6146914536891909,
+      "z_world": 0.8918292971261402,
+      "observation_count": 5,
+      "mean_confidence": 0.5173358201980591,
+      "position_rmse_m": 0.1390315250821024,
+      "node_id": "tv_28"
+    },
+    {
+      "object_id": 29,
+      "class_name": "tv",
+      "x_world": -0.7363514883055852,
+      "y_world": -1.2543610001280494,
+      "z_world": 1.519813443776255,
+      "observation_count": 4,
+      "mean_confidence": 0.565916433930397,
+      "position_rmse_m": 0.0913091886845617,
+      "node_id": "tv_29"
+    },
+    {
+      "object_id": 30,
+      "class_name": "keyboard",
+      "x_world": -0.2354195249888208,
+      "y_world": 0.136757771724024,
+      "z_world": 1.1577099179709975,
+      "observation_count": 4,
+      "mean_confidence": 0.4587776586413383,
+      "position_rmse_m": 0.0762171065667667,
+      "node_id": "keyboard_30"
+    },
+    {
+      "object_id": 31,
+      "class_name": "tv",
+      "x_world": -1.3490319110005462,
+      "y_world": -0.194705251660654,
+      "z_world": 1.1066126150852065,
+      "observation_count": 20,
+      "mean_confidence": 0.5746618896722794,
+      "position_rmse_m": 0.0913168062256458,
+      "node_id": "tv_31"
+    },
+    {
+      "object_id": 32,
+      "class_name": "chair",
+      "x_world": 0.8080116740100589,
+      "y_world": -0.4711114512685638,
+      "z_world": 1.05306046106776,
+      "observation_count": 6,
+      "mean_confidence": 0.4642754594484965,
+      "position_rmse_m": 0.055254368842876,
+      "node_id": "chair_32"
+    },
+    {
+      "object_id": 33,
+      "class_name": "laptop",
+      "x_world": -1.5610644634625468,
+      "y_world": -0.1799244998565888,
+      "z_world": 1.1616757749424589,
+      "observation_count": 9,
+      "mean_confidence": 0.5574105481306711,
+      "position_rmse_m": 0.1159098922927468,
+      "node_id": "laptop_33"
+    },
+    {
+      "object_id": 37,
+      "class_name": "laptop",
+      "x_world": 0.3024386759299902,
+      "y_world": -0.7750155703851324,
+      "z_world": 1.658977904909415,
+      "observation_count": 5,
+      "mean_confidence": 0.4916486203670501,
+      "position_rmse_m": 0.0805186529598365,
+      "node_id": "laptop_37"
+    },
+    {
+      "object_id": 39,
+      "class_name": "chair",
+      "x_world": 0.5480969908838385,
+      "y_world": -0.2084780305879573,
+      "z_world": 0.8900017655057433,
+      "observation_count": 7,
+      "mean_confidence": 0.486337491444179,
+      "position_rmse_m": 0.0724847426825232,
+      "node_id": "chair_39"
+    },
+    {
+      "object_id": 41,
+      "class_name": "tv",
+      "x_world": 0.8776162427120451,
+      "y_world": -0.5023646066703611,
+      "z_world": 1.0649623561726782,
+      "observation_count": 4,
+      "mean_confidence": 0.4628125727176666,
+      "position_rmse_m": 0.0804820351976812,
+      "node_id": "tv_41"
+    },
+    {
+      "object_id": 42,
+      "class_name": "keyboard",
+      "x_world": 0.8739381321967591,
+      "y_world": -0.4288585201140644,
+      "z_world": 1.5491172945747618,
+      "observation_count": 43,
+      "mean_confidence": 0.642318166965662,
+      "position_rmse_m": 0.094661947177252,
+      "node_id": "keyboard_42"
+    },
+    {
+      "object_id": 44,
+      "class_name": "tv",
+      "x_world": 0.3583974182644229,
+      "y_world": -0.7332528374871868,
+      "z_world": 1.5529925022500273,
+      "observation_count": 20,
+      "mean_confidence": 0.5911046713590622,
+      "position_rmse_m": 0.0744405589068055,
+      "node_id": "tv_44"
+    },
+    {
+      "object_id": 46,
+      "class_name": "tv",
+      "x_world": -1.607983155522574,
+      "y_world": -0.4103744202220815,
+      "z_world": 0.7547836897228519,
+      "observation_count": 3,
+      "mean_confidence": 0.4463794529438019,
+      "position_rmse_m": 0.1127511518953068,
+      "node_id": "tv_46"
+    },
+    {
+      "object_id": 48,
+      "class_name": "keyboard",
+      "x_world": -0.998528044379708,
+      "y_world": 0.1215763482150479,
+      "z_world": 1.1965021251807375,
+      "observation_count": 3,
+      "mean_confidence": 0.5460963944594065,
+      "position_rmse_m": 0.0710404486823397,
+      "node_id": "keyboard_48"
+    },
+    {
+      "object_id": 51,
+      "class_name": "tv",
+      "x_world": 0.4683191914754991,
+      "y_world": -0.1562180539868236,
+      "z_world": 1.0779767035219938,
+      "observation_count": 8,
+      "mean_confidence": 0.4172358028590679,
+      "position_rmse_m": 0.107597478855052,
+      "node_id": "tv_51"
+    },
+    {
+      "object_id": 52,
+      "class_name": "mouse",
+      "x_world": 0.8633533142551865,
+      "y_world": -0.3550516082919276,
+      "z_world": 1.3452235583846794,
+      "observation_count": 3,
+      "mean_confidence": 0.5205447375774384,
+      "position_rmse_m": 0.0113627781367164,
+      "node_id": "mouse_52"
+    },
+    {
+      "object_id": 53,
+      "class_name": "mouse",
+      "x_world": 0.6881343496324459,
+      "y_world": -0.3197784858186501,
+      "z_world": 1.431723776347047,
+      "observation_count": 10,
+      "mean_confidence": 0.4981813460588455,
+      "position_rmse_m": 0.0577008239937471,
+      "node_id": "mouse_53"
+    },
+    {
+      "object_id": 54,
+      "class_name": "tv",
+      "x_world": 0.7503984478798714,
+      "y_world": -0.5121251153719142,
+      "z_world": 1.2047773714533163,
+      "observation_count": 12,
+      "mean_confidence": 0.5288784851630529,
+      "position_rmse_m": 0.0783675479044195,
+      "node_id": "tv_54"
+    },
+    {
+      "object_id": 55,
+      "class_name": "refrigerator",
+      "x_world": 0.321750862024194,
+      "y_world": 1.4898221896532131,
+      "z_world": -0.283804604694055,
+      "observation_count": 7,
+      "mean_confidence": 0.5018403828144073,
+      "position_rmse_m": 0.11997813434606,
+      "node_id": "refrigerator_55"
+    },
+    {
+      "object_id": 56,
+      "class_name": "person",
+      "x_world": 0.7747586929309997,
+      "y_world": 1.7481572730571096,
+      "z_world": -0.6800154645905419,
+      "observation_count": 3,
+      "mean_confidence": 0.6139926314353943,
+      "position_rmse_m": 0.1148503665846497,
+      "node_id": "person_56"
+    },
+    {
+      "object_id": 59,
+      "class_name": "mouse",
+      "x_world": 0.5299442902798823,
+      "y_world": -0.5056131454350444,
+      "z_world": 1.6635685189631395,
+      "observation_count": 8,
+      "mean_confidence": 0.6230125986039639,
+      "position_rmse_m": 0.0063210316601811,
+      "node_id": "mouse_59"
+    },
+    {
+      "object_id": 60,
+      "class_name": "mouse",
+      "x_world": 0.3524044070390981,
+      "y_world": -0.5822598945276467,
+      "z_world": 1.7297240260126876,
+      "observation_count": 6,
+      "mean_confidence": 0.4821078032255173,
+      "position_rmse_m": 0.0299421159729379,
+      "node_id": "mouse_60"
+    },
+    {
+      "object_id": 61,
+      "class_name": "keyboard",
+      "x_world": 0.0305096457614595,
+      "y_world": -1.0069630057398544,
+      "z_world": 2.1398597332130604,
+      "observation_count": 5,
+      "mean_confidence": 0.5362126350402832,
+      "position_rmse_m": 0.0386212651606036,
+      "node_id": "keyboard_61"
+    },
+    {
+      "object_id": 63,
+      "class_name": "bottle",
+      "x_world": 0.8323091134172051,
+      "y_world": -1.399551091629614,
+      "z_world": 2.564193795318026,
+      "observation_count": 6,
+      "mean_confidence": 0.7689759731292725,
+      "position_rmse_m": 0.0554301121890516,
+      "node_id": "bottle_63"
+    },
+    {
+      "object_id": 65,
+      "class_name": "chair",
+      "x_world": 1.3296346431736723,
+      "y_world": -1.1894391387049397,
+      "z_world": 1.9241165242487777,
+      "observation_count": 5,
+      "mean_confidence": 0.5849164366722107,
+      "position_rmse_m": 0.016673672907431,
+      "node_id": "chair_65"
+    },
+    {
+      "object_id": 67,
+      "class_name": "teddy bear",
+      "x_world": 1.4430436542203555,
+      "y_world": -0.8647301238484478,
+      "z_world": 1.8469723541066307,
+      "observation_count": 11,
+      "mean_confidence": 0.7818262577056885,
+      "position_rmse_m": 0.1271020151248096,
+      "node_id": "teddy bear_67"
+    },
+    {
+      "object_id": 69,
+      "class_name": "tv",
+      "x_world": 2.8203149842221222,
+      "y_world": -1.0101036561800507,
+      "z_world": 1.5262070794799447,
+      "observation_count": 3,
+      "mean_confidence": 0.4991773267587026,
+      "position_rmse_m": 0.1252740273502669,
+      "node_id": "tv_69"
+    },
+    {
+      "object_id": 75,
+      "class_name": "laptop",
+      "x_world": 3.705974412984551,
+      "y_world": 1.074421912516696,
+      "z_world": -0.2516561553474564,
+      "observation_count": 24,
+      "mean_confidence": 0.7201817358533541,
+      "position_rmse_m": 0.0783614360870782,
+      "node_id": "laptop_75"
+    },
+    {
+      "object_id": 76,
+      "class_name": "chair",
+      "x_world": 3.381115858130149,
+      "y_world": 0.6189117928061459,
+      "z_world": 0.1961946284673526,
+      "observation_count": 5,
+      "mean_confidence": 0.6059482812881469,
+      "position_rmse_m": 0.1112719436244881,
+      "node_id": "chair_76"
+    },
+    {
+      "object_id": 79,
+      "class_name": "mouse",
+      "x_world": 2.3914607134288426,
+      "y_world": 1.0593123019671808,
+      "z_world": -0.0695487420421116,
+      "observation_count": 20,
+      "mean_confidence": 0.8241886138916016,
+      "position_rmse_m": 0.0406276343308908,
+      "node_id": "mouse_79"
+    },
+    {
+      "object_id": 80,
+      "class_name": "chair",
+      "x_world": 3.386573456716641,
+      "y_world": 0.8314923217193337,
+      "z_world": 0.1865147963201462,
+      "observation_count": 11,
+      "mean_confidence": 0.8382532759146257,
+      "position_rmse_m": 0.104577156263503,
+      "node_id": "chair_80"
+    },
+    {
+      "object_id": 81,
+      "class_name": "keyboard",
+      "x_world": 2.605471540408578,
+      "y_world": 1.1665940846820764,
+      "z_world": -0.1768115263562728,
+      "observation_count": 27,
+      "mean_confidence": 0.7944616940286424,
+      "position_rmse_m": 0.0817972236313503,
+      "node_id": "keyboard_81"
+    },
+    {
+      "object_id": 82,
+      "class_name": "keyboard",
+      "x_world": 3.564987944044033,
+      "y_world": 1.0434229040483318,
+      "z_world": -0.1163972948269023,
+      "observation_count": 11,
+      "mean_confidence": 0.5258216478607871,
+      "position_rmse_m": 0.087347324493713,
+      "node_id": "keyboard_82"
+    },
+    {
+      "object_id": 84,
+      "class_name": "chair",
+      "x_world": 3.053373082207161,
+      "y_world": 0.9368441802835716,
+      "z_world": 0.3702062722835984,
+      "observation_count": 3,
+      "mean_confidence": 0.6045337518056234,
+      "position_rmse_m": 0.028715329818668,
+      "node_id": "chair_84"
+    },
+    {
+      "object_id": 85,
+      "class_name": "tv",
+      "x_world": 2.186518806685852,
+      "y_world": 1.0947836588367417,
+      "z_world": -0.3762677190965243,
+      "observation_count": 8,
+      "mean_confidence": 0.7866977229714394,
+      "position_rmse_m": 0.0741832097704925,
+      "node_id": "tv_85"
+    },
+    {
+      "object_id": 86,
+      "class_name": "mouse",
+      "x_world": 3.321493636553748,
+      "y_world": 1.2139334392020873,
+      "z_world": -0.2543430043274238,
+      "observation_count": 12,
+      "mean_confidence": 0.5835256179173788,
+      "position_rmse_m": 0.033311523595099,
+      "node_id": "mouse_86"
+    },
+    {
+      "object_id": 88,
+      "class_name": "cup",
+      "x_world": 3.318221776259928,
+      "y_world": 1.3650065475866169,
+      "z_world": -0.4519133521302453,
+      "observation_count": 8,
+      "mean_confidence": 0.4485115371644497,
+      "position_rmse_m": 0.0247632862443102,
+      "node_id": "cup_88"
+    },
+    {
+      "object_id": 89,
+      "class_name": "tv",
+      "x_world": 2.4756433946532304,
+      "y_world": 1.2073984826415305,
+      "z_world": -0.5629583818470187,
+      "observation_count": 13,
+      "mean_confidence": 0.6046011745929718,
+      "position_rmse_m": 0.0742870449369215,
+      "node_id": "tv_89"
+    },
+    {
+      "object_id": 90,
+      "class_name": "cup",
+      "x_world": 2.955205592343224,
+      "y_world": 1.451297874215174,
+      "z_world": -0.5403160178979305,
+      "observation_count": 5,
+      "mean_confidence": 0.5308807492256165,
+      "position_rmse_m": 0.0129294097282931,
+      "node_id": "cup_90"
+    },
+    {
+      "object_id": 91,
+      "class_name": "cup",
+      "x_world": 3.216133480727879,
+      "y_world": 1.519451936954976,
+      "z_world": -0.5923521994427046,
+      "observation_count": 8,
+      "mean_confidence": 0.4725368469953537,
+      "position_rmse_m": 0.0235881978421403,
+      "node_id": "cup_91"
+    },
+    {
+      "object_id": 92,
+      "class_name": "potted plant",
+      "x_world": 3.252076303533696,
+      "y_world": 1.40212519338094,
+      "z_world": -0.6919744485156808,
+      "observation_count": 11,
+      "mean_confidence": 0.5766809718175367,
+      "position_rmse_m": 0.075109517159088,
+      "node_id": "potted plant_92"
+    },
+    {
+      "object_id": 93,
+      "class_name": "potted plant",
+      "x_world": 3.491464542908081,
+      "y_world": 1.6615977330490534,
+      "z_world": -0.9258390115751048,
+      "observation_count": 3,
+      "mean_confidence": 0.5119877358277639,
+      "position_rmse_m": 0.063074961801734,
+      "node_id": "potted plant_93"
+    },
+    {
+      "object_id": 97,
+      "class_name": "tv",
+      "x_world": 2.105835174501035,
+      "y_world": 0.8166898961627451,
+      "z_world": -0.2872884778168849,
+      "observation_count": 7,
+      "mean_confidence": 0.6707003584929875,
+      "position_rmse_m": 0.030276293137551,
+      "node_id": "tv_97"
+    },
+    {
+      "object_id": 100,
+      "class_name": "person",
+      "x_world": 0.8950974828025737,
+      "y_world": 1.7309886700524046,
+      "z_world": -0.6813677281993389,
+      "observation_count": 38,
+      "mean_confidence": 0.8235189632365578,
+      "position_rmse_m": 0.4453088977193196,
+      "node_id": "person_100"
+    },
+    {
+      "object_id": 105,
+      "class_name": "refrigerator",
+      "x_world": 0.3387253122111897,
+      "y_world": 1.615257159406845,
+      "z_world": -0.2919708511071766,
+      "observation_count": 15,
+      "mean_confidence": 0.5453624804814656,
+      "position_rmse_m": 0.1659567881254969,
+      "node_id": "refrigerator_105"
+    },
+    {
+      "object_id": 106,
+      "class_name": "person",
+      "x_world": 0.8891523005827214,
+      "y_world": 2.122753949775018,
+      "z_world": -0.5008883623761458,
+      "observation_count": 3,
+      "mean_confidence": 0.667003850142161,
+      "position_rmse_m": 0.0474368177287491,
+      "node_id": "person_106"
+    },
+    {
+      "object_id": 113,
+      "class_name": "tv",
+      "x_world": -0.8361598120749785,
+      "y_world": -1.1338636696590971,
+      "z_world": 1.488454184433799,
+      "observation_count": 5,
+      "mean_confidence": 0.5187824249267579,
+      "position_rmse_m": 0.1109439935354136,
+      "node_id": "tv_113"
+    },
+    {
+      "object_id": 115,
+      "class_name": "laptop",
+      "x_world": 0.0931679066522358,
+      "y_world": -0.0931745929571427,
+      "z_world": 1.021108944023145,
+      "observation_count": 3,
+      "mean_confidence": 0.486240694920222,
+      "position_rmse_m": 0.0387639398756734,
+      "node_id": "laptop_115"
+    },
+    {
+      "object_id": 118,
+      "class_name": "chair",
+      "x_world": 0.4637778447858548,
+      "y_world": -0.6080363063886385,
+      "z_world": 1.2525244872357262,
+      "observation_count": 5,
+      "mean_confidence": 0.5744792282581329,
+      "position_rmse_m": 0.0562291473611796,
+      "node_id": "chair_118"
+    },
+    {
+      "object_id": 121,
+      "class_name": "chair",
+      "x_world": 0.2401376202484513,
+      "y_world": -0.4737621911799605,
+      "z_world": 0.9744134856618472,
+      "observation_count": 3,
+      "mean_confidence": 0.4432975550492604,
+      "position_rmse_m": 0.0908706015130312,
+      "node_id": "chair_121"
+    },
+    {
+      "object_id": 122,
+      "class_name": "chair",
+      "x_world": 0.066387356512533,
+      "y_world": 0.6252549647363105,
+      "z_world": 0.8069145071177785,
+      "observation_count": 7,
+      "mean_confidence": 0.6264023525374276,
+      "position_rmse_m": 0.0880759544554162,
+      "node_id": "chair_122"
+    }
+  ],
+  "edges": [
+    {
+      "source": "laptop_0",
+      "target": "keyboard_2",
+      "source_object_id": 0,
+      "target_object_id": 2,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.23770123396046267
+    },
+    {
+      "source": "laptop_0",
+      "target": "chair_39",
+      "source_object_id": 0,
+      "target_object_id": 39,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.23080550374486666
+    },
+    {
+      "source": "laptop_0",
+      "target": "tv_51",
+      "source_object_id": 0,
+      "target_object_id": 51,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.15802796707946629
+    },
+    {
+      "source": "laptop_0",
+      "target": "laptop_115",
+      "source_object_id": 0,
+      "target_object_id": 115,
+      "relation": "NEAR",
+      "distance_m": 0.2645174852832761
+    },
+    {
+      "source": "laptop_0",
+      "target": "chair_121",
+      "source_object_id": 0,
+      "target_object_id": 121,
+      "relation": "NEAR",
+      "distance_m": 0.31119776874035576
+    },
+    {
+      "source": "laptop_1",
+      "target": "keyboard_2",
+      "source_object_id": 1,
+      "target_object_id": 2,
+      "relation": "NEAR",
+      "distance_m": 0.3716545888112724
+    },
+    {
+      "source": "laptop_1",
+      "target": "keyboard_15",
+      "source_object_id": 1,
+      "target_object_id": 15,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.16434107607001766
+    },
+    {
+      "source": "laptop_1",
+      "target": "laptop_23",
+      "source_object_id": 1,
+      "target_object_id": 23,
+      "relation": "NEAR",
+      "distance_m": 0.27809037472071574
+    },
+    {
+      "source": "laptop_1",
+      "target": "keyboard_30",
+      "source_object_id": 1,
+      "target_object_id": 30,
+      "relation": "NEAR",
+      "distance_m": 0.3161903651842589
+    },
+    {
+      "source": "laptop_1",
+      "target": "laptop_115",
+      "source_object_id": 1,
+      "target_object_id": 115,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.19727819822192885
+    },
+    {
+      "source": "keyboard_2",
+      "target": "mouse_11",
+      "source_object_id": 2,
+      "target_object_id": 11,
+      "relation": "NEAR",
+      "distance_m": 0.3328605598293619
+    },
+    {
+      "source": "keyboard_2",
+      "target": "chair_39",
+      "source_object_id": 2,
+      "target_object_id": 39,
+      "relation": "NEAR",
+      "distance_m": 0.35172559277979587
+    },
+    {
+      "source": "keyboard_2",
+      "target": "tv_51",
+      "source_object_id": 2,
+      "target_object_id": 51,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.1885401155129339
+    },
+    {
+      "source": "keyboard_2",
+      "target": "laptop_115",
+      "source_object_id": 2,
+      "target_object_id": 115,
+      "relation": "NEAR",
+      "distance_m": 0.3333077599022484
+    },
+    {
+      "source": "tv_3",
+      "target": "tv_31",
+      "source_object_id": 3,
+      "target_object_id": 31,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.17407974509996374
+    },
+    {
+      "source": "tv_3",
+      "target": "laptop_33",
+      "source_object_id": 3,
+      "target_object_id": 33,
+      "relation": "NEAR",
+      "distance_m": 0.3925251530996339
+    },
+    {
+      "source": "tv_3",
+      "target": "keyboard_48",
+      "source_object_id": 3,
+      "target_object_id": 48,
+      "relation": "NEAR",
+      "distance_m": 0.3849998519227468
+    },
+    {
+      "source": "mouse_6",
+      "target": "tv_14",
+      "source_object_id": 6,
+      "target_object_id": 14,
+      "relation": "NEAR",
+      "distance_m": 0.31874495609264486
+    },
+    {
+      "source": "mouse_6",
+      "target": "cup_24",
+      "source_object_id": 6,
+      "target_object_id": 24,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.19713684261934367
+    },
+    {
+      "source": "mouse_6",
+      "target": "chair_32",
+      "source_object_id": 6,
+      "target_object_id": 32,
+      "relation": "NEAR",
+      "distance_m": 0.3633499469121497
+    },
+    {
+      "source": "mouse_6",
+      "target": "tv_41",
+      "source_object_id": 6,
+      "target_object_id": 41,
+      "relation": "NEAR",
+      "distance_m": 0.3884897888017287
+    },
+    {
+      "source": "mouse_6",
+      "target": "tv_51",
+      "source_object_id": 6,
+      "target_object_id": 51,
+      "relation": "NEAR",
+      "distance_m": 0.3909291374796863
+    },
+    {
+      "source": "mouse_6",
+      "target": "mouse_52",
+      "source_object_id": 6,
+      "target_object_id": 52,
+      "relation": "NEAR",
+      "distance_m": 0.2734162603246539
+    },
+    {
+      "source": "mouse_6",
+      "target": "mouse_53",
+      "source_object_id": 6,
+      "target_object_id": 53,
+      "relation": "NEAR",
+      "distance_m": 0.34563465115484826
+    },
+    {
+      "source": "mouse_6",
+      "target": "tv_54",
+      "source_object_id": 6,
+      "target_object_id": 54,
+      "relation": "NEAR",
+      "distance_m": 0.3895613579317213
+    },
+    {
+      "source": "book_10",
+      "target": "mouse_11",
+      "source_object_id": 10,
+      "target_object_id": 11,
+      "relation": "NEAR",
+      "distance_m": 0.39889121834605373
+    },
+    {
+      "source": "book_10",
+      "target": "book_13",
+      "source_object_id": 10,
+      "target_object_id": 13,
+      "relation": "NEAR",
+      "distance_m": 0.28947427103027085
+    },
+    {
+      "source": "mouse_11",
+      "target": "tv_51",
+      "source_object_id": 11,
+      "target_object_id": 51,
+      "relation": "NEAR",
+      "distance_m": 0.39993594750270545
+    },
+    {
+      "source": "teddy bear_12",
+      "target": "teddy bear_67",
+      "source_object_id": 12,
+      "target_object_id": 67,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2445045598885515
+    },
+    {
+      "source": "book_13",
+      "target": "book_19",
+      "source_object_id": 13,
+      "target_object_id": 19,
+      "relation": "NEAR",
+      "distance_m": 0.35911686050577574
+    },
+    {
+      "source": "tv_14",
+      "target": "tv_20",
+      "source_object_id": 14,
+      "target_object_id": 20,
+      "relation": "NEAR",
+      "distance_m": 0.3957433905606176
+    },
+    {
+      "source": "tv_14",
+      "target": "cup_24",
+      "source_object_id": 14,
+      "target_object_id": 24,
+      "relation": "NEAR",
+      "distance_m": 0.36668498950901535
+    },
+    {
+      "source": "tv_14",
+      "target": "chair_32",
+      "source_object_id": 14,
+      "target_object_id": 32,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.20577825131363411
+    },
+    {
+      "source": "tv_14",
+      "target": "chair_39",
+      "source_object_id": 14,
+      "target_object_id": 39,
+      "relation": "NEAR",
+      "distance_m": 0.37442660069736217
+    },
+    {
+      "source": "tv_14",
+      "target": "tv_41",
+      "source_object_id": 14,
+      "target_object_id": 41,
+      "relation": "NEAR",
+      "distance_m": 0.2623918112889828
+    },
+    {
+      "source": "tv_14",
+      "target": "tv_51",
+      "source_object_id": 14,
+      "target_object_id": 51,
+      "relation": "NEAR",
+      "distance_m": 0.33491086206707954
+    },
+    {
+      "source": "tv_14",
+      "target": "mouse_52",
+      "source_object_id": 14,
+      "target_object_id": 52,
+      "relation": "NEAR",
+      "distance_m": 0.2544897410159075
+    },
+    {
+      "source": "tv_14",
+      "target": "mouse_53",
+      "source_object_id": 14,
+      "target_object_id": 53,
+      "relation": "NEAR",
+      "distance_m": 0.25803773380312667
+    },
+    {
+      "source": "tv_14",
+      "target": "tv_54",
+      "source_object_id": 14,
+      "target_object_id": 54,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.13886921875069602
+    },
+    {
+      "source": "tv_14",
+      "target": "chair_118",
+      "source_object_id": 14,
+      "target_object_id": 118,
+      "relation": "NEAR",
+      "distance_m": 0.29864430712178247
+    },
+    {
+      "source": "keyboard_15",
+      "target": "laptop_23",
+      "source_object_id": 15,
+      "target_object_id": 23,
+      "relation": "NEAR",
+      "distance_m": 0.3602608953713913
+    },
+    {
+      "source": "keyboard_15",
+      "target": "keyboard_30",
+      "source_object_id": 15,
+      "target_object_id": 30,
+      "relation": "NEAR",
+      "distance_m": 0.3659594751095469
+    },
+    {
+      "source": "keyboard_15",
+      "target": "laptop_115",
+      "source_object_id": 15,
+      "target_object_id": 115,
+      "relation": "NEAR",
+      "distance_m": 0.34751386983021726
+    },
+    {
+      "source": "mouse_17",
+      "target": "book_19",
+      "source_object_id": 17,
+      "target_object_id": 19,
+      "relation": "NEAR",
+      "distance_m": 0.3277163659051379
+    },
+    {
+      "source": "tv_20",
+      "target": "tv_44",
+      "source_object_id": 20,
+      "target_object_id": 44,
+      "relation": "NEAR",
+      "distance_m": 0.3630228710547629
+    },
+    {
+      "source": "tv_20",
+      "target": "mouse_53",
+      "source_object_id": 20,
+      "target_object_id": 53,
+      "relation": "NEAR",
+      "distance_m": 0.3823920010300227
+    },
+    {
+      "source": "tv_20",
+      "target": "mouse_59",
+      "source_object_id": 20,
+      "target_object_id": 59,
+      "relation": "NEAR",
+      "distance_m": 0.3640509883112361
+    },
+    {
+      "source": "tv_20",
+      "target": "mouse_60",
+      "source_object_id": 20,
+      "target_object_id": 60,
+      "relation": "NEAR",
+      "distance_m": 0.38977902827550226
+    },
+    {
+      "source": "tv_20",
+      "target": "chair_118",
+      "source_object_id": 20,
+      "target_object_id": 118,
+      "relation": "NEAR",
+      "distance_m": 0.2684719481711585
+    },
+    {
+      "source": "laptop_23",
+      "target": "keyboard_30",
+      "source_object_id": 23,
+      "target_object_id": 30,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.08420137343216152
+    },
+    {
+      "source": "laptop_23",
+      "target": "laptop_115",
+      "source_object_id": 23,
+      "target_object_id": 115,
+      "relation": "NEAR",
+      "distance_m": 0.3684216811883091
+    },
+    {
+      "source": "cup_24",
+      "target": "chair_32",
+      "source_object_id": 24,
+      "target_object_id": 32,
+      "relation": "NEAR",
+      "distance_m": 0.35775899739711
+    },
+    {
+      "source": "cup_24",
+      "target": "tv_41",
+      "source_object_id": 24,
+      "target_object_id": 41,
+      "relation": "NEAR",
+      "distance_m": 0.34319602723386733
+    },
+    {
+      "source": "cup_24",
+      "target": "keyboard_42",
+      "source_object_id": 24,
+      "target_object_id": 42,
+      "relation": "NEAR",
+      "distance_m": 0.36592963258620564
+    },
+    {
+      "source": "cup_24",
+      "target": "mouse_52",
+      "source_object_id": 24,
+      "target_object_id": 52,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.1923764206354464
+    },
+    {
+      "source": "cup_24",
+      "target": "mouse_53",
+      "source_object_id": 24,
+      "target_object_id": 53,
+      "relation": "NEAR",
+      "distance_m": 0.3588419093454514
+    },
+    {
+      "source": "cup_24",
+      "target": "tv_54",
+      "source_object_id": 24,
+      "target_object_id": 54,
+      "relation": "NEAR",
+      "distance_m": 0.3660589928050853
+    },
+    {
+      "source": "chair_25",
+      "target": "chair_122",
+      "source_object_id": 25,
+      "target_object_id": 122,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.22594307448989479
+    },
+    {
+      "source": "keyboard_27",
+      "target": "keyboard_48",
+      "source_object_id": 27,
+      "target_object_id": 48,
+      "relation": "NEAR",
+      "distance_m": 0.2937453330298107
+    },
+    {
+      "source": "tv_28",
+      "target": "tv_46",
+      "source_object_id": 28,
+      "target_object_id": 46,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.24981305231494438
+    },
+    {
+      "source": "tv_29",
+      "target": "tv_113",
+      "source_object_id": 29,
+      "target_object_id": 113,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.15957666273709117
+    },
+    {
+      "source": "tv_31",
+      "target": "laptop_33",
+      "source_object_id": 31,
+      "target_object_id": 33,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.21956371626684984
+    },
+    {
+      "source": "chair_32",
+      "target": "tv_41",
+      "source_object_id": 32,
+      "target_object_id": 41,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.07722182860983595
+    },
+    {
+      "source": "chair_32",
+      "target": "mouse_52",
+      "source_object_id": 32,
+      "target_object_id": 52,
+      "relation": "NEAR",
+      "distance_m": 0.3192050433978108
+    },
+    {
+      "source": "chair_32",
+      "target": "tv_54",
+      "source_object_id": 32,
+      "target_object_id": 54,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.16739003962377652
+    },
+    {
+      "source": "laptop_37",
+      "target": "tv_44",
+      "source_object_id": 37,
+      "target_object_id": 44,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.12691892010109898
+    },
+    {
+      "source": "laptop_37",
+      "target": "mouse_59",
+      "source_object_id": 37,
+      "target_object_id": 59,
+      "relation": "NEAR",
+      "distance_m": 0.35264365139202475
+    },
+    {
+      "source": "laptop_37",
+      "target": "mouse_60",
+      "source_object_id": 37,
+      "target_object_id": 60,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.21132046401544421
+    },
+    {
+      "source": "chair_39",
+      "target": "tv_51",
+      "source_object_id": 39,
+      "target_object_id": 51,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.21078467628127406
+    },
+    {
+      "source": "tv_41",
+      "target": "mouse_52",
+      "source_object_id": 41,
+      "target_object_id": 52,
+      "relation": "NEAR",
+      "distance_m": 0.31693988717850907
+    },
+    {
+      "source": "tv_41",
+      "target": "tv_54",
+      "source_object_id": 41,
+      "target_object_id": 54,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.18928252256877598
+    },
+    {
+      "source": "keyboard_42",
+      "target": "mouse_52",
+      "source_object_id": 42,
+      "target_object_id": 52,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2170994110105502
+    },
+    {
+      "source": "keyboard_42",
+      "target": "mouse_53",
+      "source_object_id": 42,
+      "target_object_id": 53,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.24536246171526757
+    },
+    {
+      "source": "keyboard_42",
+      "target": "tv_54",
+      "source_object_id": 42,
+      "target_object_id": 54,
+      "relation": "NEAR",
+      "distance_m": 0.37518710284634493
+    },
+    {
+      "source": "keyboard_42",
+      "target": "mouse_59",
+      "source_object_id": 42,
+      "target_object_id": 59,
+      "relation": "NEAR",
+      "distance_m": 0.3705699914306284
+    },
+    {
+      "source": "tv_44",
+      "target": "mouse_59",
+      "source_object_id": 44,
+      "target_object_id": 59,
+      "relation": "NEAR",
+      "distance_m": 0.3057371651729981
+    },
+    {
+      "source": "tv_44",
+      "target": "mouse_60",
+      "source_object_id": 44,
+      "target_object_id": 60,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.23252702315774307
+    },
+    {
+      "source": "tv_44",
+      "target": "chair_118",
+      "source_object_id": 44,
+      "target_object_id": 118,
+      "relation": "NEAR",
+      "distance_m": 0.3421479826052273
+    },
+    {
+      "source": "tv_51",
+      "target": "laptop_115",
+      "source_object_id": 51,
+      "target_object_id": 115,
+      "relation": "NEAR",
+      "distance_m": 0.38463867012244757
+    },
+    {
+      "source": "mouse_52",
+      "target": "mouse_53",
+      "source_object_id": 52,
+      "target_object_id": 53,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.19856526997442714
+    },
+    {
+      "source": "mouse_52",
+      "target": "tv_54",
+      "source_object_id": 52,
+      "target_object_id": 54,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2390732521379823
+    },
+    {
+      "source": "mouse_53",
+      "target": "tv_54",
+      "source_object_id": 53,
+      "target_object_id": 54,
+      "relation": "NEAR",
+      "distance_m": 0.3039386690193513
+    },
+    {
+      "source": "mouse_53",
+      "target": "mouse_59",
+      "source_object_id": 53,
+      "target_object_id": 59,
+      "relation": "NEAR",
+      "distance_m": 0.33661639929069254
+    },
+    {
+      "source": "tv_54",
+      "target": "chair_118",
+      "source_object_id": 54,
+      "target_object_id": 118,
+      "relation": "NEAR",
+      "distance_m": 0.30599038178636145
+    },
+    {
+      "source": "refrigerator_55",
+      "target": "refrigerator_105",
+      "source_object_id": 55,
+      "target_object_id": 105,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.1268414410858106
+    },
+    {
+      "source": "person_56",
+      "target": "person_100",
+      "source_object_id": 56,
+      "target_object_id": 100,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.12156485468158829
+    },
+    {
+      "source": "mouse_59",
+      "target": "mouse_60",
+      "source_object_id": 59,
+      "target_object_id": 60,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2043812256558768
+    },
+    {
+      "source": "chair_65",
+      "target": "teddy bear_67",
+      "source_object_id": 65,
+      "target_object_id": 67,
+      "relation": "NEAR",
+      "distance_m": 0.35248939147523384
+    },
+    {
+      "source": "laptop_75",
+      "target": "keyboard_82",
+      "source_object_id": 75,
+      "target_object_id": 82,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.19782083383621657
+    },
+    {
+      "source": "chair_76",
+      "target": "chair_80",
+      "source_object_id": 76,
+      "target_object_id": 80,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.21287077254930992
+    },
+    {
+      "source": "mouse_79",
+      "target": "keyboard_81",
+      "source_object_id": 79,
+      "target_object_id": 81,
+      "relation": "NEAR",
+      "distance_m": 0.2623267425670943
+    },
+    {
+      "source": "mouse_79",
+      "target": "tv_85",
+      "source_object_id": 79,
+      "target_object_id": 85,
+      "relation": "NEAR",
+      "distance_m": 0.37058863067143033
+    },
+    {
+      "source": "chair_80",
+      "target": "chair_84",
+      "source_object_id": 80,
+      "target_object_id": 84,
+      "relation": "NEAR",
+      "distance_m": 0.39479622847467555
+    },
+    {
+      "source": "keyboard_82",
+      "target": "mouse_86",
+      "source_object_id": 82,
+      "target_object_id": 86,
+      "relation": "NEAR",
+      "distance_m": 0.32770770382796277
+    },
+    {
+      "source": "tv_85",
+      "target": "tv_89",
+      "source_object_id": 85,
+      "target_object_id": 89,
+      "relation": "NEAR",
+      "distance_m": 0.36211673458445537
+    },
+    {
+      "source": "tv_85",
+      "target": "tv_97",
+      "source_object_id": 85,
+      "target_object_id": 97,
+      "relation": "NEAR",
+      "distance_m": 0.30292456935583195
+    },
+    {
+      "source": "mouse_86",
+      "target": "cup_88",
+      "source_object_id": 86,
+      "target_object_id": 88,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2487324495872502
+    },
+    {
+      "source": "cup_88",
+      "target": "cup_90",
+      "source_object_id": 88,
+      "target_object_id": 90,
+      "relation": "NEAR",
+      "distance_m": 0.38346052489349636
+    },
+    {
+      "source": "cup_88",
+      "target": "cup_91",
+      "source_object_id": 88,
+      "target_object_id": 91,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.2323757048751769
+    },
+    {
+      "source": "cup_88",
+      "target": "potted plant_92",
+      "source_object_id": 88,
+      "target_object_id": 92,
+      "relation": "NEAR",
+      "distance_m": 0.2517585101353249
+    },
+    {
+      "source": "cup_90",
+      "target": "cup_91",
+      "source_object_id": 90,
+      "target_object_id": 91,
+      "relation": "NEAR",
+      "distance_m": 0.27465633689135305
+    },
+    {
+      "source": "cup_90",
+      "target": "potted plant_92",
+      "source_object_id": 90,
+      "target_object_id": 92,
+      "relation": "NEAR",
+      "distance_m": 0.3369724785210227
+    },
+    {
+      "source": "cup_91",
+      "target": "potted plant_92",
+      "source_object_id": 91,
+      "target_object_id": 92,
+      "relation": "VERY_NEAR",
+      "distance_m": 0.1580570902531616
+    },
+    {
+      "source": "chair_118",
+      "target": "chair_121",
+      "source_object_id": 118,
+      "target_object_id": 121,
+      "relation": "NEAR",
+      "distance_m": 0.3813006913744581
+    }
+  ]
+}

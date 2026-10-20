@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasets
+data/
+datasets/
+*.oni
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ORB-SLAM3 / third-party builds
+ORB_SLAM3/
+Thirdparty/
+build/
+build*/
+
+# Large media
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Logs / temporary
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+secrets.*
+credentials.*
+
+# Generated result dumps
+results/**/semantic_pipeline_timings.csv
+results/**/object_observations.csv
+
+# Keep compact recruiter-facing results
+!results/
+!results/desk/
+!results/room/
+!results/**/object_map.csv
+!results/**/scene_graph.json
+!results/**/semantic_pipeline_summary.txt
